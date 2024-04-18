@@ -1,11 +1,5 @@
 name: ubuntu
 
-on: 
-  pull_request:
-  push:
-    branches:
-    - master
-
 jobs:
   tests:
     runs-on: ubuntu-22.04
