@@ -1,8 +1,9 @@
 name: Publish multiarch images on ghcr.io
+
 on:
   push:
-    branches:
-    - master
+    tags:
+      - '*'
 
 env:
   REGISTRY: ghcr.io
